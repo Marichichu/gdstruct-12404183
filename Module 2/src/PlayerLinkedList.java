@@ -58,7 +58,6 @@ public class PlayerLinkedList {
         return -1;
     }
 
-    // --- Updated printList method --- ✨
     public void printList() {
         System.out.println("HEAD:");
         PlayerNode current = head;
