@@ -52,6 +52,8 @@ public class Main {
                 System.out.println("\nNot enough players to start a game. Waiting for more...\n");
             }
             System.out.println("---------------------------------");
+
+
         }
 
         //  Terminate the program
