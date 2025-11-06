@@ -1,6 +1,5 @@
 public class Card {
 
-
     public enum Suit {
         HEARTS, DIAMONDS, CLUBS, SPADES
     }
@@ -19,7 +18,7 @@ public class Card {
 
     @Override
     public String toString() {
-        // print cards as "ACE of SPADES", "TEN of HEARTS", etc.
+        // print "ACE of SPADES", "TEN of HEARTS", etc.
         return rank + " of " + suit;
     }
 }
